@@ -2,7 +2,7 @@
 
 ## To try it
 
-In the project directory, you can run:
+You try it here [https://challenge-rl.vercel.app](https://challenge-rl.vercel.app) or, in the project directory, you can run:
 
 ### `npm start`
 
