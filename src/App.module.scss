@@ -1,0 +1,16 @@
+@use "style/style" as *;
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $primary-color-dark-mode;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: $secondary-color-dark-mode;
+}

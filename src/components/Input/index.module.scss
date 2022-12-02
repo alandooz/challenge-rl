@@ -1,0 +1,46 @@
+@use "style/style" as *;
+
+.icon-account {
+  background: url("./account.svg") no-repeat 5px;
+}
+
+.icon-lock {
+  background: url("./lock.svg") no-repeat 5px;
+}
+
+.icon-search {
+  background: url("./search.svg") no-repeat 5px;
+}
+
+.icon {
+  padding-left: 25px;
+}
+
+.label {
+  text-align: left;
+  font-size: 0.6em;
+}
+
+.Input {
+  background-size: 15px;
+  background-color: $secondary-color-dark-mode;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-color: transparent;
+
+  &.is-invalid {
+    border: 2px solid red;
+  }
+}
+
+.error-description {
+  font-size: 0.5em;
+  color: red;
+  opacity: 0;
+  text-align: left;
+  margin-bottom: 15px;
+
+  &.is-invalid {
+    opacity: 1;
+  }
+}

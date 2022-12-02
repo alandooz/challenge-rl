@@ -1,0 +1,24 @@
+.Items {
+  height:250px;
+  max-height:250px;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  font-size: 0.5em;
+
+  & span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.actions {
+  display: flex;
+}

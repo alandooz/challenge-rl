@@ -1,0 +1,19 @@
+@use "style/style" as *;
+
+.container-list {
+  background-color: black;
+  border-radius: $border-radius;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 30vh;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+
+  Input {
+    border-radius: $border-radius;
+  }
+}

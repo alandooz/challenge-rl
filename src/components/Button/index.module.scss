@@ -1,0 +1,54 @@
+@use "style/style" as *;
+
+.icon-edit {
+  background: url("./edit.svg") no-repeat 5px;
+}
+
+.icon-delete {
+  background: url("./delete.svg") no-repeat 5px;
+}
+
+.Button {
+  opacity: 1;
+  background-color: transparent;
+  color: $secondary-color-dark-mode;
+  border: 1px $secondary-color-dark-mode solid;
+  border-radius: 5px;
+  padding: 5px 10px;
+
+  &:hover {
+    color: $primary-color-dark-mode;
+    background-color: $secondary-color-dark-mode;
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+
+  &.is-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
+
+.icon {
+  border: none;
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  border-radius: 0;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(166deg) brightness(100%) contrast(91%);
+  background-size: 20px;
+}
+
+.error-description {
+  font-size: 0.5em;
+  color: red;
+  opacity: 0;
+
+  &.is-invalid {
+    opacity: 1;
+  }
+}
